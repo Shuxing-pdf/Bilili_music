@@ -60,6 +60,21 @@ def get_user_folders(mid: str):
         return []
     return data["data"].get("list", []) or []
 
+def find_matching_folders(folders, keyword):
+    """查找所有标题包含关键字的收藏夹，返回列表"""
+    matches = []
+    for f in folders:
+        if keyword.lower() in f["title"].lower():  # 不区分大小写匹配
+            matches.append({
+                "id": str(f["id"]),
+                "title": f["title"],
+                "intro": f.get("intro", ""),
+                "cover": f.get("cover", ""),
+                "upper_name": f.get("upper", {}).get("name", "未知用户"),
+                "media_count": f["media_count"]
+            })
+    return matches
+
 def get_folder_info(folders, title: str):
     """根据标题模糊匹配收藏夹详细信息"""
     for f in folders:
@@ -279,22 +294,59 @@ def main():
         
         # ========== 步骤2: 选择并导出收藏夹 ==========
         print(f"\n📂 共发现 {len(current_folders)} 个公开收藏夹：")
-        for f in current_folders:
-            print(f"  - {f['title']}  (id:{f['id']}, 共{f['media_count']}个视频)")
+        for idx, f in enumerate(current_folders, 1):
+            print(f"  {idx}. {f['title']}  (id:{f['id']}, 共{f['media_count']}个视频)")
 
-        title_key = input("\n请输入要导出的收藏夹【标题关键词】：").strip()
-        folder_basic = get_folder_info(current_folders, title_key)
-        if folder_basic is None:
-            print("❌ 未找到匹配标题的收藏夹")
+        # 循环直到成功选择或用户取消
+        selected_folder = None
+        while selected_folder is None:
+            title_key = input("\n请输入要导出的收藏夹【标题关键词】：").strip()
+            if not title_key:
+                print("❌ 关键词不能为空")
+                continue
+    
+            # 查找所有匹配项
+            matching_folders = find_matching_folders(current_folders, title_key)
+    
+            if len(matching_folders) == 0:
+                print(f"❌ 未找到标题包含『{title_key}』的收藏夹")
+                if not ask_continue("是否重新输入关键词？（Y/N）："):
+                    break
+                continue
+    
+            elif len(matching_folders) == 1:
+                # 唯一匹配，直接确认
+                selected_folder = matching_folders[0]
+                print(f"\n✅ 找到唯一匹配：《{selected_folder['title']}》")
+        
+            else:
+                # 多个匹配，展示列表供选择
+                print(f"\n⚠️  找到 {len(matching_folders)} 个匹配的收藏夹：")
+                for idx, folder in enumerate(matching_folders, 1):
+                    print(f"  {idx}. {folder['title']}  (id:{folder['id']}, {folder['media_count']}个视频)")
+        
+                while True:
+                    choice = input("\n请输入序号选择（或输入 0 重新输入关键词）：").strip()
+                    if choice == "0":
+                        break  # 跳出内层循环，重新输入关键词
+                    if choice.isdigit() and 1 <= int(choice) <= len(matching_folders):
+                        selected_folder = matching_folders[int(choice) - 1]
+                        break
+                    print("❌ 请输入有效序号或 0")
+
+        # 检查是否成功选择
+        if selected_folder is None:
+            print("\n⚠️  未选择收藏夹，跳过本次操作")
             continue
 
         try:
-            folder_detail = get_folder_detail(folder_basic["id"])
+            # 使用已选择的文件夹信息获取详情
+            folder_detail = get_folder_detail(selected_folder["id"])
         except RuntimeError as e:
             print(f"\n❌ 获取收藏夹详情失败：{e}")
             continue
 
-        # ✅ 新增：检查是否已导出过该收藏夹
+        # 检查重复导出
         folder_key = (current_mid, folder_detail["id"])
         if folder_key in exported_folders:
             print(f"\n⚠️ 该收藏夹《{folder_detail['title']}》已导出。")
