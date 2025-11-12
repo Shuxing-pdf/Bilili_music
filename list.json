@@ -8,6 +8,15 @@
     "createdAt": null,
     "updatedAt": null,
     "musicList": [
+      {"id":"612255353_BV1e84y1T7jp_1088818466","cover":"http://i2.hdslb.com/bfs/storyff/n230409029bmhfdbtjemi1zwqrb1cyzy_firsti.jpg","name":"最伟大的作品-周杰伦","duration":245,"author":"无损音乐合集","origin":"bili"},
+      {
+        "id": "612255353_BV1e84y1T7jp_1088807591",
+        "cover": "http://i0.hdslb.com/bfs/storyff/n23040904nu7fllezyaq110os4n2glrq_firsti.jpg",
+        "name": "夜曲-周杰伦",
+        "duration": 227,
+        "author": "无损音乐合集",
+        "origin": "bili"
+      },
       {
         "id": "3688990458_BV1z4fxY4EPi_1428107",
         "cover": "http://i0.hdslb.com/bfs/archive/416ecfd639bae59bdcd440689adde676c8d00c88.jpg",
@@ -348,5 +357,6 @@
   }
 
 ]
+
 
 
