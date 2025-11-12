@@ -7,7 +7,8 @@
     "cover": "http://i0.hdslb.com/bfs/archive/370a21a76631e0743ebbcced706a67f5eddde24d.jpg",
     "createdAt": null,
     "updatedAt": null,
-    "musicList": [
+    "musicList": 
+    [
       {
         "id": "114597025553193_BV1nu7pz4EoG_30242635974",
         "avid": 114597025553193,
@@ -117,7 +118,8 @@
     "cover": "http://i0.hdslb.com/bfs/archive/c4ed85af4597cce88734305ee0b7d34b0f98eb0c.jpg",
     "createdAt": null,
     "updatedAt": null,
-    "musicList": [
+    "musicList": 
+    [
       {
         "id": "1305196045_BV1zM4m1r7JS_1608792581",
         "avid": 1305196045,
@@ -428,4 +430,5 @@
       }
     ]
   }
+
 ]
