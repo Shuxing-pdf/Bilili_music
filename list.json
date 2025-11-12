@@ -1,17 +1,8 @@
 [
   {
     "id": 3688990458,
-    "fid": 36889904,
-    "title": "Test",
-    "description": "测试丰富",
+    "name": "Test",
     "cover": "http://i0.hdslb.com/bfs/archive/416ecfd639bae59bdcd440689adde676c8d00c88.jpg",
-    "mediaCount": 42,
-    "createdAt": 1762900418,
-    "updatedAt": 1762900418,
-    "creator": {
-      "mid": 413124458,
-      "name": "书兴"
-    },
     "musicList": [
       {
         "id": "3688990458_BV1z4fxY4EPi_1428107",
@@ -351,4 +342,5 @@
       }
     ]
   }
+
 ]
