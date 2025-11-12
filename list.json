@@ -1,6 +1,6 @@
 [
   {
-    "id": "Rg3SbSqZPOusCUbQDTF-8",
+    "id":"Rg3SbSqZPOusCUbQDTF-8",
     "name": "音乐",
     "desc": "各类音乐大杂烩",
     "author": "书兴",
@@ -8504,14 +8504,15 @@
     ]
   },
   {
-    "id": 3449634158,
+    "id":"7BE3J6_KdrUSmKHgnExQ2",
     "name": "7BE3J6_KdrUSmKHgnExQ2",
     "desc": "虚拟歌姬及VUP的歌。",
     "author": "书兴",
     "cover": "http://i2.hdslb.com/bfs/archive/76837e4396b95a15e36fbf73727111467d54298f.jpg",
     "createdAt": null,
     "updatedAt": null,
-    "musicList": [
+    "musicList": 
+    [
       {
         "id": "693977782_BV1D24y1i7v2_994662080",
         "avid": 693977782,
@@ -10275,7 +10276,7 @@
     ]
   },
   {
-    "id": "n1TC8Ft8ktFLNZ2uAFXOr",
+    "id":"n1TC8Ft8ktFLNZ2uAFXOr",
     "name": "初音未来",
     "desc": "Miku的歌！",
     "author": "书兴",
@@ -10771,7 +10772,7 @@
     ]
   },
   {
-    "id": "72fafecd-4b56-47fd-a1f9-547a58e9b811",
+    "id":"72fafecd-4b56-47fd-a1f9-547a58e9b811",
     "name": "洛天依",
     "desc": "天依的歌！锦衣卫报道！",
     "author": "书兴",
@@ -11509,7 +11510,7 @@
     ]
   },
   {
-    "id": "92e78b36-2ff6-4e18-8818-de61a270cd76",
+    "id":"92e78b36-2ff6-4e18-8818-de61a270cd76",
     "name": "乐正绫",
     "desc": "乐正绫的歌！御林军报道！",
     "author": "书兴",
@@ -11828,5 +11829,115 @@
       }
     ]
   },
- ]
-
+  {
+    "id":"06f4f5ff-011b-41fd-8406-82e2c998b89a",
+    "name": "时雨羽衣",
+    "desc": "羽衣的歌！",
+    "author": "书兴",
+    "cover": "http://i0.hdslb.com/bfs/archive/370a21a76631e0743ebbcced706a67f5eddde24d.jpg",
+    "createdAt": null,
+    "updatedAt": null,
+    "musicList": 
+    [
+      {
+        "id": "114597025553193_BV1nu7pz4EoG_30242635974",
+        "avid": 114597025553193,
+        "bvid": "BV1nu7pz4EoG",
+        "cid": 30242635974,
+        "name": "【原创曲】ういこうせん（羽衣工船） ⧸ しぐれうい【にゃるら・Aiobahn +81】",
+        "duration": 266,
+        "cover": "http://i0.hdslb.com/bfs/archive/370a21a76631e0743ebbcced706a67f5eddde24d.jpg",
+        "author": "時雨羽衣Official",
+        "origin": "bili"
+      },
+      {
+        "id": "114590566325139_BV1NH7GzBEZG_30212424095",
+        "avid": 114590566325139,
+        "bvid": "BV1NH7GzBEZG",
+        "cid": 30212424095,
+        "name": "rainy lady  ⧸ covered by 雨衣",
+        "duration": 257,
+        "cover": "http://i0.hdslb.com/bfs/archive/7cdca7832dc6f4b3babc985f5c8292319633f43c.jpg",
+        "author": "時雨羽衣Official",
+        "origin": "bili"
+      },
+      {
+        "id": "114952954256519_BV1ChhHz8EY1_31421826630",
+        "avid": 114952954256519,
+        "bvid": "BV1ChhHz8EY1",
+        "cid": 31421826630,
+        "name": "チェリーポップ /covered by しぐれうい",
+        "duration": 141,
+        "cover": "http://i1.hdslb.com/bfs/archive/a93cbe4766b00ad01c0c1ae13e9d9f50bc943bca.jpg",
+        "author": "時雨羽衣Official",
+        "origin": "bili"
+      },
+      {
+        "id": "114919299096385_BV1TW84z2ECv_31296718068",
+        "avid": 114919299096385,
+        "bvid": "BV1TW84z2ECv",
+        "cid": 31296718068,
+        "name": "【雨衣】Cherry Pop【赤猫】",
+        "duration": 143,
+        "cover": "http://i1.hdslb.com/bfs/archive/791e0ff3498f083e58e41ad4b5fd81e9fc4e1d70.jpg",
+        "author": "ゆりがさきなな",
+        "origin": "bili"
+      },
+      {
+        "id": "114840429466339_BV1m6M9zPEEb_31000364303",
+        "avid": 114840429466339,
+        "bvid": "BV1m6M9zPEEb",
+        "cid": 31000364303,
+        "name": "【原创曲】ひっひっふー（吸吸吐） / しぐれうい【じん】",
+        "duration": 165,
+        "cover": "http://i1.hdslb.com/bfs/archive/ebb0fe798141ad54fa2b3e91d58958314c6228b9.jpg",
+        "author": "時雨羽衣Official",
+        "origin": "bili"
+      },
+      {
+        "id": "445673661_BV1Qj411o7G5_1190639521",
+        "avid": 445673661,
+        "bvid": "BV1Qj411o7G5",
+        "cid": 1190639521,
+        "name": "【原创歌曲】rainy lady _ 时雨羽衣",
+        "duration": 255,
+        "cover": "http://i1.hdslb.com/bfs/archive/20cace7e9f7bbb5fcfa5a3069a94f3133466e5de.jpg",
+        "author": "時雨羽衣Official",
+        "origin": "bili"
+      },
+      {
+        "id": "1406540101_BV1wr421T7DP_25660096897",
+        "avid": 1406540101,
+        "bvid": "BV1wr421T7DP",
+        "cid": 25660096897,
+        "name": "【原创曲】自在地活着吧【しぐれうい / いよわ】",
+        "duration": 248,
+        "cover": "http://i0.hdslb.com/bfs/archive/8b8d3eb63c327594473ae16b87e7fc1175f109e3.jpg",
+        "author": "時雨羽衣Official",
+        "origin": "bili"
+      },
+      {
+        "id": "1855196220_BV1fs421u7ce_31062822391",
+        "avid": 1855196220,
+        "bvid": "BV1fs421u7ce",
+        "cid": 31062822391,
+        "name": "【原创曲】うい麦畑でつかまえて（羽衣麦田的守望者）⧸ しぐれうい【ナナホシ管弦楽団】",
+        "duration": 226,
+        "cover": "http://i2.hdslb.com/bfs/archive/3e099500fda7b5086fa13cbbd0ac8cae2347149c.jpg",
+        "author": "時雨羽衣Official",
+        "origin": "bili"
+      },
+      {
+        "id": "960852557_BV1sH4y1D79p_1263327586",
+        "avid": 960852557,
+        "bvid": "BV1sH4y1D79p",
+        "cid": 1263327586,
+        "name": "【原创歌曲】粛聖!! ロリ神レクイエム☆ _ 时雨羽衣（9岁）",
+        "duration": 274,
+        "cover": "http://i2.hdslb.com/bfs/archive/46ed1ce896b8902f86d04673ad64457d558b50ad.jpg",
+        "author": "時雨羽衣Official",
+        "origin": "bili"
+      }
+    ]
+  }
+]
