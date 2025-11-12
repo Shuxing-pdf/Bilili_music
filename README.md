@@ -50,4 +50,4 @@
 
 ## 鸣谢
 
- 感谢[阿炸克斯](https://github.com/lvyueyang)提供的[哔哔歌单云同步详细教程](https://juejin.cn/post/7428849498019053587 "如何使用哔哔音乐的歌单云同步功能")以及 [SocialSisterYi](https://github.com/SocialSisterYi/bilibili-API-collect "你们的存在，让社区更美好") 整理的[B 站接口文档](https://github.com/SocialSisterYi/bilibili-API-collect) 。
+ 感谢[阿炸克斯](https://github.com/lvyueyang  "你们的存在，让社区更美好")提供的[哔哔音乐歌单云同步详细教程](https://juejin.cn/post/7428849498019053587 "如何使用哔哔音乐的歌单云同步功能")以及 [SocialSisterYi](https://github.com/SocialSisterYi/bilibili-API-collect "你们的存在，让社区更美好") 整理的[B 站接口文档](https://github.com/SocialSisterYi/bilibili-API-collect) 。
