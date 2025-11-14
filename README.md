@@ -14,7 +14,7 @@
 
 ## 使用教程
 
-1.[点此获取自己账号的mid](https://space.bilibili.com/) ,".com/"之后的一串数字即对应账号的mid，即下图框选部分。
+1.[点此获取自己账号的mid](https://space.bilibili.com/  "此人未来必暴富！o(*￣︶￣*)o") ,".com/"之后的一串数字即对应账号的mid，即下图框选部分。
 
 ![mid位置](https://i.imgur.com/h8EVJxH.png)
 
@@ -52,3 +52,4 @@
 ## 鸣谢
 
  感谢[阿炸克斯](https://github.com/lvyueyang  "你们的存在，让社区更美好")提供的[哔哔音乐歌单云同步详细教程](https://juejin.cn/post/7428849498019053587 "如何使用哔哔音乐的歌单云同步功能")以及 [SocialSisterYi](https://github.com/SocialSisterYi/bilibili-API-collect "你们的存在，让社区更美好") 整理的[B 站接口文档](https://github.com/SocialSisterYi/bilibili-API-collect) 。
+
